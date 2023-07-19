@@ -413,10 +413,37 @@ footer{
     .policy p{
         font-size: 80%;
     }
-
+    .img1 img{
+        width: 450px;
+        height: 500px;
+    }
+    .game-image .game-1{
+        width: 330px;
+        
+    }
+    
     
         
         
+    }
+    @media screen and (min-width:576px) and (max-width:990px){
+        
+        
+        .option-details{
+            flex-direction: column;
+        }
+        .footer-icons img{
+            margin-left: 0;
+        
+        }
+        .section-icon-2{
+            width: 90%;
+    
+        }
+        .content-videos{
+            padding-top: 50px;
+        }
+
     }
 
         
