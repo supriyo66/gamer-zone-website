@@ -253,6 +253,48 @@ gap: 2px;
     border: 1px solid blue;
     background-color: lightgray;
 }
+.play-icon img{
+    width: 48px;
+    height: 48px;
+}
+.play-icon{
+    margin-left: 70px;
+    position: absolute;
+    bottom: 135px;
+
+}
+.play-icon p{
+    visibility: hidden;
+    opacity: 0;
+    
+}
+.card{
+    position: relative;
+
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover .play-img{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+
+    
+}
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+    background: white;
+    font-size: medium;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.card:hover .play-img-1{
+    transform: scale(1.1) rotate(-0.2deg);
+}
 .footer-start{
     display: flex;
     justify-content: center;
